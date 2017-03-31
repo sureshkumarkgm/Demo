@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    font-family: open sans;
+}
+
+.search-input{
+	width: 50%;
+    height: 35px;
+    border: none;
+    box-shadow: 1px 1px 1px #c0c0c0;
+    padding: 0px 10px;
+    outline: none;
+}
+
+.search-box{
+	height: 60px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px #888;
+    /*position: fixed;*/
+    /*z-index: 20;*/
+    width: 100%;
+}
+
+.image-list{
+    display: flex;
+    position: relative;
+    background-color: #FAFAFA;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 500px;
+    /*padding-top: 60px;*/
+}
+
+
+.image-list-item{
+	display: block;
+	position: relative;
+    border: 1px solid #c0c0c0;
+    margin: 16px;
+    box-shadow: 1px 1px 1px #c0c0c0;
+    border-radius: 2px;
+    background: #fff;
+}
+
+
+.image-content{
+    margin: 10px; 
+}
+
+.image-header{
+    display: flex;	
+    justify-content: center;
+}
+
+.image-name{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.image-user{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width:200px;
+	font-size: 14px;	
+}
+
+.posted-user{
+	font-size: 12px;
+	color: grey;
+	text-align: center;
+}
+
+.pin{
+    position: absolute;
+    z-index: 10;
+    margin-top: 5px;
+    margin-left: 190px;
+    background: red;
+    color: #fff;
+    display: flex;
+    height: 25px;
+    width: 65px;
+    justify-content: space-around;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.pin:hover{
+    box-shadow: 2px 2px 1px #c0c0c0; 
+}
+
+.user-container{
+	display: flex;
+	justify-content: center;
+}
+
+.loader-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.loader-image{
+	width: 100px;
+	height: 100px;
+}
+
+.image-name-input{
+	border: none;
+	width: 100%;
+	box-shadow: 1px 1px 1px #c0c0c0;
+	height: 20px;
+	padding: 10px;
+}
